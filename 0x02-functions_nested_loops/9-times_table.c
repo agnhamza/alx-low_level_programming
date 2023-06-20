@@ -5,6 +5,7 @@
  * times_table - prints the 9 times table, starting with 0
  */
 void times_table(void){
+	int i,j=0;
 	int tab[10][10];
 	int k =0;
 	for (int i = 0 ; i < 10; i++){
